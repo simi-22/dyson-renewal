@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <ul class="right-icon">
+        <li><input type="text" title="검색창" placeholder="상품을 검색하세요">
+            <a href="#" class="input-submit"><img src="image/icon-돋보기.png" alt="검색"></a></li>
+        <li><a href="#"><img src="image/icon-basket.png" alt="장바구니"></a></li>
+    </ul>
+    <h1 class="logo">
+        <a href="#">
+            <img src="image/logo-white.png" alt="로고">
+        </a>
+    </h1>
+</header>
+<nav class="sticky">
+    <ul class="menu">
+        <li onmouseover="subMenuActive('product')" class="product">
+            <a href="#">제품</a>
+            <ul class="sub1">
+                <li><a href="#">무선청소기</a></li>
+                <li><a href="#">헤어케어</a></li>
+                <li><a href="#">공기청정기 및 가습기</a></li>
+                <li><a href="#">헤드폰</a></li>
+                <li><a href="#">조명</a></li>
+                <li><a href="#">액세서리 및 부품</a></li>
+                <li><a href="#">비즈니스 제품</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">제품등록</a>
+        </li>
+        <li onmouseover="subMenuActive('shop')" class="shop">
+            <a href="#">매장안내</a>
+            <ul class="sub2">
+                <li >
+                    <li><a href="#">다이슨 데모 스토어</a></li>
+                    <li><a href="#">다이슨 서비스 센터</a></li>
+                    <li><a href="#">다이슨 백화점 매장</a></li>
+                </li>
+            </ul>
+        </li>
+        <li class="dyson-live">
+            <a href="#" class="live"></a>
+        </li>
+        <li onmouseover="subMenuActive('customer')" class="customer">
+            <a href="#">고객지원</a>
+            <ul class="sub3">
+                <li>
+                    <li><a href="#">고객지원 홈</a></li>
+                    <li><a href="#">주문 조회</a></li>
+                    <li><a href="#">제품 지원</a></li>
+                    <li><a href="#">액세서리 및 부품</a></li>
+                    <li><a href="#">매뉴얼 가이드</a></li>
+                </li>
+            </ul>
+        </li>
+        <li onmouseover="subMenuActive('subevent')" class="subevent">
+            <a href="#">이벤트</a>
+            <ul class="sub4">
+                <li><a href="#">다이슨 스페셜 딜</a></li>
+                <li><a href="#">보상판매</a></li>
+                <li><a href="#">봄맞이 추천 제품</a></li>
+                <li><a href="#">리뷰 이벤트</a></li>
+            </ul>
+        </li>
+        <p id="nav-bg"></p>
+    </ul>
+</nav>
+
+<div id="slide">
+    <ul class="slide-inner">
+        <li>
+            <img src="image/dyson-anz-omni-glide-cat-featurette.jpg" alt="slide1">
+            <div class="img-inner">
+            <img src="image/Dyson-Omni-glide.png" alt="다이슨 옴니 글라이드">
+            <h3>다이슨 옴니-글라이드™ 무선 청소기</h3>
+            <span>방향조정이 쉬운 350도 전방향 무선청소기</span>
+            <p><a href="#">shop</a></p>
+            </div>
+        </li>
+        <li>
+            <img src="image/dyson-anz-pet-vacuums-cat-featurette.jpg" alt="slide2">
+            <div class="img-inner">
+            <img src="image/Dyson-Omni-glide.png" alt="다이슨 옴니 글라이드">
+            <h3>다이슨 옴니-글라이드™ 무선 청소기</h3>
+            <span>방향조정이 쉬운 350도 전방향 무선청소기</span>
+            <p><a href="#">shop</a></p>
+            </div>
+        </li>
+        <li>
+            <img src="image/674-gallery-image-purple-pw.jpg" alt="slide3">
+            <div class="img-inner">
+            <img src="image/Dyson-Omni-glide.png" alt="다이슨 옴니 글라이드">
+            <h3>다이슨 옴니-글라이드™ 무선 청소기</h3>
+            <span>방향조정이 쉬운 350도 전방향 무선청소기</span>
+            <p><a href="#">shop</a></p>
+            </div>
+        </li>
+    </ul>
+</div>
+<div id="event">
+    <h2>Event</h2>
+    <div id="event-wrap"><!--전체-->
+    <ul class="sm-box"><!--네개묶음-->
+        <li><!--왼쪽두개묶음-->
+            <div><!--한개-->
+                <p><!--한개 반-->
+                    <img src="image/Lifestyle_SV23_Core_Purple.jpg" alt="젠5 디렉트 컴플리트">
+                </p>
+                <p>
+                    <img src="image/Dyson-Gen5Detect-DARK-2.png" alt="젠5 디렉트 컴플리트">
+                    <span>다이슨 Gen5 디렉트 컴플리트</span>
+                    <span>한정기간, 디테일 클리닝 키트 증정</span>
+                    <a href="#">구매하기</a>
+                    <a href="#">더 알아보기</a>
+                </p>
+            </div>
+            <div><!--한개-->
+                <p><!--한개 반-->
+                    <img src="image/395906-01.jpg" alt="젠5 디렉트 컴플리트">
+                </p>
+                <p>
+                    <img src="image/Dyson-Airwrap-1.png" alt="젠5 디렉트 컴플리트">
+                    <span>다이슨 에어랩멀티™ 스타일러</span>
+                    <span>기간한정, 12개월 무이자 할부</span>
+                    <a href="#">구매하기</a>
+                    <a href="#">더 알아보기</a>
+                </p>
+            </div>
+        </li>
+        <li><!--왼쪽두개묶음-->
+            <div><!--한개-->
+                <p><!--한개 반-->
+                    <img src="image/ph04-wg-hepa13-wFilter2.jpg" alt="젠5 디렉트 컴플리트">
+                </p>
+                <p>
+                    <img src="image/PH04-Motif.png" alt="젠5 디렉트 컴플리트">
+                    <span>다이슨 휴미디파이+쿨 프롬알데히드 가습 공기청정기</span>
+                    <span>기존제품 반납시, 가격혜택과 추가필터까지</span>
+                    <a href="#">구매하기</a>
+                    <a href="#">더 알아보기</a>
+                </p>
+            </div>
+            <div><!--한개-->
+                <p><!--한개 반-->
+                    <img src="image/Lifestyle_V12_IRDKBLIRCO.jpg" alt="젠5 디렉트 컴플리트">
+                </p>
+                <p>
+                    <img src="image/v12-detect-slim-personalization-motif.png" alt="젠5 디렉트 컴플리트">
+                    <span>다이슨 V12 디텍트 슬림™</span>
+                    <span>기존제품 반납시, 가격혜택과 추가증정품까지</span>
+                    <a href="#">구매하기</a>
+                    <a href="#">더 알아보기</a>
+                </p>
+            </div>
+        </li>
+    </ul>
+
+    <div class="event-center">
+        <a href="#"><img src="image/event.jpg" alt="1월한정이벤트"></a>
+    </div>
+    </div>
+</div>
+<div id="best-item">
+    <h2>Best Item</h2>
+    <div id="item-title">
+        <ul>
+            <li onclick="itemButtonEvent('hair')" class="clickafter">헤어케어</li>
+            <li onclick="itemButtonEvent('lamp')">조명</li>
+            <li onclick="itemButtonEvent('vacuum')">무선청소기</li>
+            <li onclick="itemButtonEvent('air')">공기청정기 및 가습기</li>
+        </ul>
+    </div>
+    <ul id="item-section">
+        <li class="hair-item">
+            <div class="item-container">
+                <div>
+                    <h3>1위</h3>
+                    <a href="#"><img src="image/hair-1.jpg" alt="헤어1위"></a>
+                    <a href="#">다이슨 에어랩™ 멀티 스타일러 컴플리트 롱(니켈/코퍼)</a> 
+                    <p>749,000원</p> 
+                </div>
+                <div>
+                    <h3>2위</h3>
+                    <a href="#"><img src="image/hair-2.jpg" alt="헤어2위"></a>
+                    <a href="#">다이슨 에어랩™ 멀티 스타일러 컴플리트 롱(빈카블루/로제)</a> 
+                    <p>749,000원</p>  
+                </div>
+                <div>
+                    <h3>3위</h3>
+					<a href="#"><img src="image/hair-3.jpg" alt="헤어3위"></a>
+                    <a href="#">다이슨 슈퍼소닉™ 헤어드라이어(블랙/니켈)+전용거치대 증정 [사은품별도배송]</a> 
+                    <p>549,000원</p>
+                </div>
+            </div>
+		</li>
+        <li class="lamp-item">
+            <div class="item-container">
+                <div>
+                    <h3>1위</h3>
+                    <a href="#"><img src="image/lamp-1.jpg" alt="조명1위"></a>
+                    <a href="#">[15만원 할인] 다이슨 솔라사이클 모프™ 조명 플로어스탠드형(화이트/실버)</a> 
+                    <p>810,000원</p>  
+                </div>
+                <div>
+                    <h3>2위</h3>
+                    <a href="#"><img src="image/lamp-2.jpg" alt="조명2위"></a>
+                    <a href="#">[15만원 할인] 다이슨 솔라사이클 모프 조명 데스크형(화이트/실버)</a> 
+                    <p>570,000원</p>  
+                </div>
+            </div>
+		</li>
+        <li class="vacuum-item">
+            <div class="item-container">
+                <div>
+                    <h3>1위</h3>
+                    <a href="#"><img src="image/vacuum-1.jpg" alt="무선청소기1위"></a>
+                    <a href="#">다이슨 Gen5 디텍트™ 컴플리트(퍼플/퍼플)+ 디테일클리닝키트 추가증정</a> 
+                    <p>1,290,000원</p>  
+                </div>
+                <div>
+                    <h3>2위</h3>
+                    <a href="#"><img src="image/vacuum-2.jpg" alt="무선청소기2위"></a>
+                    <a href="#">다이슨 V15 디텍트™ 컴플리트(옐로/니켈)</a> 
+                    <p>1,290,000원</p>  
+                </div>
+                <div>
+                    <h3>3위</h3>
+                    <a href="#"><img src="image/vacuum-3.jpg" alt="무선청소기3위"></a>
+                    <a href="#">다이슨 V12 디텍트 슬림™ 컴플리트(옐로/니켈)</a> 
+                    <p>890,000원</p>  
+                </div>
+            </div> 
+        </li>
+        <li class="air-item">
+            <div class="item-container">
+                <div>
+                    <h3>1위</h3>
+                    <a href="#"><img src="image/air-1.jpg" alt="공기청정기1위"></a>
+                    <a href="#">다이슨 TP07 쿨 공기청정기 (화이트/실버)</a> 
+                    <p>599,000원</p>  
+                </div>
+                <div>
+                    <h3>2위</h3>
+                    <a href="#"><img src="image/air-2.jpg" alt="공기청정기2위"></a>
+                    <a href="#">다이슨 TP07 쿨 공기청정기 (블랙/니켈)</a> 
+                    <p>599,000원</p>  
+                </div>
+            </div>
+        </li>
+    </ul>
+    <a href="#" class="more">자세히보기</a>
+</div>
+<div id="news">
+    <h2>News</h2>
+
+<ul>
+    <li>
+        <dl>
+            <dt><img src="image/Forbes 2022_Words best employers.jpg" alt="기사1이미지"></dt>
+            <dd>
+                <p>Feature</p>
+                <h3>다이슨, 포브스(Forbes)주관<br>
+                    '세계최고의 고용주'와 글로벌 100대 '여성친화기업'에 선정
+                </h3>
+                <span>2022년 12월 07일</span>
+                <span>다이슨은 올해 미국의 경제잡지 포브스(Forbes)에 의해 <br>
+                '세계최고의 고용주'중 한 곳이자 글로벌 100대 '여성친화기업'으로 선정되었습니다.
+                </span>
+                <a href="#">more</a>
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl>
+            <dt><img src="image/dyson-zone-newsroom-image-1.jpg" alt="기사2이미지"></dt>
+            <dd>
+                <p>Feature</p>
+                <h3>다이슨, 공기 정화 노이즈 캔슬링 헤드폰<br>
+                    '다이슨 존™(Dyson Zone™)' 상세 스펙 최초 공개
+                </h3>
+                <span>2022년 12월 08일</span>
+                <span>다이슨이 공기 정화 노이즈 캔슬링 헤드폰 <br>
+                    '다이슨 존™(Dyson Zone™)'의 전체 제품사양을 발표했습니다<br>
+                    다이슨 존™은 깨끗하고 몰입감 높은 청취 경험과 이동 중 정화된 공기를 제공합니다.
+                </span>
+                <a href="#">more</a>
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl>
+            <dt><img src="image/Software-and-Connectivity_4.jpg" alt="기사3이미지"></dt>
+            <dd>
+                <p>Feature</p>
+                <h3>다이슨이 소프트웨어 및 <br>
+                    커넥티비티 분야에 5개년 투자 계획을 발표했습니다
+                </h3>
+                <span>2022년 12월 01일</span>
+                <span>다이슨의 수석 엔지니어 <br>
+                    제이크 다이슨(Jake Dyson)이 새로운 기술에 대해<br>
+                    27억 5000만 파운드(한화 약 4조 3,390억원) 규모의 투자 계획을 발표했습니다
+                </span>
+                <a href="#">more</a>
+            </dd>
+        </dl>
+    </li>
+</ul>
+
+<a href="#" class="more">더보기</a>
+
+
+</div>
+<footer>
+    <div class="f-inner">
+        <div class="f-left">
+            <p class="flag"><img src="image/korea-flag.png" alt="태극기"></p>
+            한국
+        </div>
+        <div class="f-right">
+            <div class="first-fbox">
+                <a href="#">배송정보</a>
+                <a href="#">채용</a>
+                <a href="#">언론</a>
+                <a href="#">웹사이트 사용 약관</a>
+                <a href="#">AM04/5 리콜</a>
+                <a href="#">다이슨 하이퍼디엄 모터</a>
+                <a href="#">다이슨 환경정책</a>
+                <a href="#">다이슨 지속가능성</a>
+                <a href="#">위조 다이슨 기술 판별 안내</a>
+            </div>
+            <div class="second-fbox">
+                <a href="#">개인정보방침</a>
+                <a href="#">다이슨 글로벌 개인 정보처리 방침</a>
+                <a href="#">웹사이트 판매 약관</a>
+                <a href="#">쿠키 취급 방침</a>
+                <a href="#">James Dyson 재단</a>
+            </div>
+        </div>
+        <div class="f-bottom">
+            다이슨 코리아 유한회사 대표이사: 한지훈 서울 특별시 강남구 테헤한호 142, 아크플레이스
+            17층 0623<br>
+            사업자등록번호 : 811-81-00675 통신판매번호 2017-서울강남-04029 사업자정보확인<br>
+            고객센터: 080-300-4253(수신자부담)/1588-4253 (운영시간: 월-금 오전 9시-오후 6시)<br>
+            이메일:help@kr.dyson.com
+            호스팅 제공자 아마존웹스
+        </div>
+    </div>
+<!--<ul class="left-icon">
+        <li><a href="#"><img src="image/icon-message.png" alt="메세지"></a></li>
+        <li><a href="#"><img src="image/icon-kakao.png" alt="1:1문의"></a></li>
+        <li><a href="#"><img src="image/icon-call.png" alt="전화"></a></li>
+    </ul>-->
+
+
+
+
+
+</footer>
+<div id="modal-wrap">
+    <div>
+        <h3>원하는 지역을 선택하세요</h3>
+        <div id="x-box">
+        <span></span>
+        <span></span>
+        </div>
+    </div>
+    <ul class="modal-title">
+        <li>유럽</li>
+        <li>아시아/태평양</li>
+        <li>북아메리카</li>
+        <li>남아메리카</li>
+        <li>중동</li>
+        <li>아프리카</li>
+    </ul>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+
+</div>
+
+<div id="aside">
+    <a href="#">전화문의</a>
+    <a href="#">카카오톡<br>상담</a>
+    <a href="#">이메일<br>문의</a>
+</div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
